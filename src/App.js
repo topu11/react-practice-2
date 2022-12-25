@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import ClickEventPractice from './classComponents/clickEvent';
+import FunctionalComponet from './functionalComponents/functionalComponent';
+import TestFunstionState from './functionalBase';
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <ClickEventPractice />
+      <FunctionalComponet />
+      <TestFunstionState />
     </div>
   );
 }
