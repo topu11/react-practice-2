@@ -1,5 +1,7 @@
 import { useState } from "react";
 import FunctionalComponentWithParametre from "./functionalComponents/propsFunctional";
+import InputBoxEvent from "./functionalComponents/inputboxEvent";
+
 export default function TestFunstionState()
 {
     let [firstName,setFirstName]=useState("touhidul");
@@ -32,6 +34,8 @@ export default function TestFunstionState()
          <button onClick={updateLastname}>Changelastname</button>
 
          <button onClick={()=>{setEmail('touhidul.developer.2022@gmail.com')}}>ChangeEmail</button>
+         
+         <InputBoxEvent />
 
         </div>
     )
